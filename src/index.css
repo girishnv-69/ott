@@ -1,0 +1,415 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+nav{
+  color: white;
+  background-color: rgb(133, 73, 73);
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 1000px;
+  /* margin-bottom: 30px; */
+  /* height: 80px; */
+}
+
+.suggestion-box{
+  background-color: rgb(121, 119, 119);
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 27%;
+  z-index: 200;
+ border-radius: 10px;
+}
+.suggestion-box ul{
+  list-style: none;
+}
+
+.suggestion-box ul li{
+  padding: 5px;
+}
+
+.suggestion-box ul li:hover{
+  background-color: #d49393;
+}
+
+#title{
+  text-align: center;
+  background-color: #80804a;
+  position: sticky;
+  top:80px ;
+  z-index: 100;
+}
+
+
+#search-bar input{
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+#search-bar button{
+  width: 50px;
+  height:40px ;
+  border-radius: 5px;
+  border-style: none;
+  position: relative;
+  right: 50px;
+  bottom: 3px;
+  font-size: 15px;
+}
+#add-movie{
+  width: 160px;
+  height: 30px;
+
+}
+
+#add-movie a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 7px 20px;
+  border-radius: 5px;
+  transition: 0.2s linear;
+
+}
+
+#add-movie a:hover{
+  background-color: rgb(173, 216, 216);
+  color: black;
+}
+
+
+
+
+.all-movies{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.movie{
+  border: none;
+  border-radius: 4px;
+  width: 250;
+  height: auto;
+  box-shadow: 0px 0px 15px rgb(79, 56, 56);
+  padding: 10px 10px;
+  margin-top: 20px;
+  /* z-index: -1000; */
+}
+
+.movie a{
+  text-decoration: none;
+  align-items: center;
+}
+
+.movie h1{
+  text-decoration: none;
+}
+
+.movie p{
+  text-decoration: none;
+  color: rgb(45, 59, 59);
+  font-size: medium;
+}
+
+/* .movie img{
+  width: 100%;
+  height: 250px;
+} */
+
+/* .movie:hover{
+  transform: scale(1.01);
+  z-index: -100;
+} */
+
+
+
+.add-movies{
+  margin: auto;
+  padding: 20px 20px;
+  width: 400px;
+  height: auto;
+  background-color: rgb(146, 122, 90);
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px ;
+  margin-top: 40px;
+  border: 2px black solid;
+}
+
+.add-movies input:hover{
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 10px;
+  padding-left: 10px;
+  color: white;
+  /* width: 250px; */
+}
+
+#submit{
+  width: 150px;
+  height: 30px;
+  margin-left: 70px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: rgb(79, 78, 80);
+  border: none;
+  color: white;
+}
+
+
+
+.movie-details{
+  /* border: 1px black solid; */
+  width: 250px;
+  height: auto;
+  background-color: rgb(203, 237, 237);
+  box-shadow: 0px 0px 15px rgb(108, 84, 84);
+  margin: auto;
+}
+
+#logo h1{
+  width: 130px;
+  height: 40px;
+}
+
+#logo a{
+  text-decoration: none;
+  color: white;
+}
+
+#logo h1:hover{
+  width: 130px;
+  height: 40px;
+  background-color:rgb(113, 165, 165) ;
+  border-radius: 5px;
+  text-decoration: none;
+  color:rgb(70, 67, 67);
+}
+
+
+
+/* ---------------------loading-starts-------------------- */
+.ring
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:150px;
+  height:150px;
+  background:transparent;
+  border:3px solid #3c3c3c;
+  border-radius:50%;
+  text-align:center;
+  line-height:150px;
+  font-family:sans-serif;
+  font-size:20px;
+  color:#fff000;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #fff000;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+.ring:before
+{
+  content:'';
+  position:absolute;
+  top:-3px;
+  left:-3px;
+  width:100%;
+  height:100%;
+  border:3px solid transparent;
+  border-top:3px solid #fff000;
+  border-right:3px solid #fff000;
+  border-radius:50%;
+  animation:animateC 2s linear infinite;
+}
+span
+{
+  display:block;
+  position:absolute;
+  top:calc(50% - 2px);
+  left:50%;
+  width:50%;
+  height:4px;
+  background:transparent;
+  transform-origin:left;
+  animation:animate 2s linear infinite;
+}
+span:before
+{
+  content:'';
+  position:absolute;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background:#fff000;
+  top:-6px;
+  right:-8px;
+  box-shadow:0 0 20px #fff000;
+}
+@keyframes animateC
+{
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+
+/* ---------------------loading-ends-------------------- */
+
+
+#filledheart{
+  position: relative;
+  top: -240px;
+  color: red;
+  border: none;
+  font-size: 15px;
+  z-index: -100;
+}
+
+#emptyheart{
+  position: relative;
+  top: -240px;
+  border: none;
+  font-size: 15px;
+  z-index: -50;
+}
+
+
+/* ---------------------add-movies-starts-------------------- */
+
+.add-movie{
+  width: 80vw;
+  margin: 50px auto;
+  text-align: center;
+}
+.add-movie h1{
+  margin: 20px;
+}
+.add-movie form{
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 8px;
+}
+.add-movie form input{
+  display: inline-block;
+  width: 80%;
+  height: 35px;
+  margin: 5px auto;
+  border-radius: 4px;
+  border: solid 1px black;
+  transition: 0.2s;
+}
+.add-movie form input:focus{
+  transform: scale(1.1);
+}
+.add-movie form input[type="checkbox"]
+{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.add-movie form input::placeholder
+{
+  padding-left: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.add-movie form fieldset{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30px 100px 30px 100px 30px 100px;
+}
+.add-movie form textarea{
+  width: 80%;
+  margin: auto;
+} 
+.add-movie form input[type="submit"]
+{
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-family: 600;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  transition: 0.2s
+}
+.add-movie form input[type="submit"]:hover
+{
+  background-color:black;
+  color: white;
+}
+/* ---------------------add-movies-ends-------------------- */
+
+@media(max-width:1000px)
+{
+  nav{
+   
+    padding: 20px 60px;
+    background-color: #ebe482;
+  }
+
+  #logo h1{
+    width: 130px;
+   font-size: 25px;
+  }
+  
+  #search-bar input{
+    width: 270px;
+    height: 30px;
+  }
+
+  #search-bar button{
+    height:30px ;
+  }
+
+  #add-movie{
+    display: none;
+  }
+
+  .movie{
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    overflow: auto;
+  }
+  
+
+}

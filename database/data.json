@@ -1,0 +1,326 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "moviename": "Kantara",
+      "hero": "Rishab",
+      "heroine": "sapthami gowda",
+      "director": "Rishab shetty",
+      "languages": [
+        "kannada",
+        "tamil",
+        "telugu",
+        "malayalam",
+        "hindi"
+      ],
+      "genre": "divine",
+      "poster": "https://static.toiimg.com/thumb/msid-97698497,width-1280,resizemode-4/97698497.jpg",
+      "trailer": "https://www.youtube.com/embed/ppYoIoW73PI",
+      "release": "2022",
+      "rating": "9.5",
+      "synopsis": "Set in a fictional village of Dakshina Kannada, Kantara is a visual grandeur that brings alive the traditional culture of Kambla and Bhootha Kola. It is believed that Demigods are the guardians and their energies encircle the village. In the story, there is a ripple when a battle of ego swirls along tradition and culture of the land. The soul of the story is on human and nature conflict in which Shiva is the rebellion and works against nature. There are intense conflicts he indulges in. In the end, a much awaiting loop leads to war between the villagers and the evil forces. Will Shiva, the protagonist of the film be able to reinstate peace and harmony in the village perceiving his existence?"
+    },
+    {
+      "id": 2,
+      "moviename": "KGF",
+      "hero": "Yash",
+      "heroine": "Sreenidhi sheety",
+      "director": "Rprashant",
+      "languages": [
+        "kannada",
+        "tamil",
+        "telugu",
+        "malayalam",
+        "hindi"
+      ],
+      "genre": "action",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kgf-chapter-2-et00098647-08-04-2022-11-33-32.jpg",
+      "trailer": "https://www.youtube.com/embed/Qah9sSIXJqk",
+      "release": "2021",
+      "rating": "9.3",
+      "synopsis": "The blood-soaked land of Kolar Gold Fields (KGF) has a new overlord now - Rocky, whose name strikes fear in the heart of his foes. His allies look up to Rocky as their saviour, the government sees him as a threat to law and order; enemies are clamouring for revenge and conspiring for his downfall. Bloodier battles and darker days await as Rocky continues on his quest for unchallenged supremacy."
+    },
+    {
+      "id": 3,
+      "moviename": "RRR",
+      "hero": "NTR Ramcharan",
+      "heroine": "alia",
+      "director": "Rajmouli",
+      "languages": [
+        "kannada",
+        "tamil",
+        "telugu",
+        "malayalam",
+        "hindi"
+      ],
+      "genre": "history",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/rrr-et00094579-12-05-2022-02-26-04.jpg",
+      "trailer": "https://www.youtube.com/embed/GY4BgdUSpbE",
+      "release": "2021",
+      "rating": "8",
+      "synopsis": "RRR is a period drama set in India during the 1920s, revolving around the inspiring journey of two of India`s freedom fighters - Alluri Sitarama Raju and Komaram Bheem."
+    },
+    {
+      "id": 4,
+      "moviename": "apthamitra",
+      "hero": "vishuvardhan",
+      "heroine": "soudariya",
+      "director": "p vasu",
+      "languages": [
+        "kannada"
+      ],
+      "genre": "horror",
+      "poster": "https://m.media-amazon.com/images/I/81duXR-7hOL._SL1420_.jpg",
+      "trailer": "https://www.youtube.com/embed/Gf-qmEbnL0I",
+      "release": "2004",
+      "rating": "10",
+      "synopsis": "stars Vishnuvardhan, Soundarya and Ramesh Arvind in the lead roles with Prema, Dwarakish and Avinash in supporting roles. The movie is a remake of the 1993 Malayalam film Manichithrathazhu.[4] The film was released on 27 August 2004 on Varalakshmi festival to positive reviews.[5]It ran for one-hundred days in theaters across Karnataka and was one of the highest-grossing films of the year.[6] Apthamitra was later followed by its sequel, Aptharakshaka (2010). P. Vasu also remade the film in Tamil in 2005 as Chandramukhi with Rajinikanth and Jyothika in the leads. Actress Soundarya is remembered for her performance in this film?"
+    },
+    {
+      "id": 5,
+      "moviename": "Love mocktail",
+      "hero": "Darling Krishna",
+      "heroine": "Milana Nagaraj , Amrutha",
+      "director": "Darling Krishna",
+      "languages": [
+        "kannada"
+      ],
+      "genre": "romance",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/love-mocktail-et00124382-20-10-2020-09-58-18.jpg",
+      "trailer": "https://www.youtube.com/embed/IsEdANxZD3c",
+      "release": "2020",
+      "rating": "8",
+      "synopsis": "Love moctail is a romantic and fun film about the protagonist Adi`s quest for love. Life takes him through a roller coaster of a ride and he goes through varied experiences at several stages throughout his search for true love. Does Adi finally find his soul mate?"
+    },
+    {
+      "id": 6,
+      "moviename": "Baahubali: The Beginning",
+      "hero": "Prabhas",
+      "heroine": "Anushka Shetty",
+      "director": "S.S. Rajamouli",
+      "languages": [
+        "telugu",
+        "tamil",
+        "hindi"
+      ],
+      "genre": "historical",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI41sPvkxSaDHEm8_ZphnsApD7mRksopHCpQ&usqp=CAU",
+      "trailer": "https://www.youtube.com/embed/sOEg_YZQsTI",
+      "release": "2015",
+      "rating": "8.8",
+      "synopsis": "In the kingdom of Mahishmati, Shivudu, a young man with a curious mind, tries to uncover the mystery behind his past. He falls in love with Avanthika, a warrior who helps him on his quest to free Devasena, a captive princess. His journey leads him to the final showdown with Bhallaladeva, the tyrannical king of Mahishmati."
+    },
+    {
+      "id": 7,
+      "moviename": "3 Idiots",
+      "hero": "Aamir Khan",
+      "heroine": "Kareena Kapoor",
+      "director": "Rajkumar Hirani",
+      "languages": [
+        "hindi"
+      ],
+      "genre": "comedy",
+      "poster": "https://www.koimoi.com/wp-content/new-galleries/2019/12/rajkumar-hiranis-3-idiots-a-story-based-on-the-education-system-that-changed-many-perceptions-completes-a-decade-0001.jpg",
+      "trailer": "https://www.youtube.com/embed/xvszmNXdM4w",
+      "release": "2009",
+      "rating": "8.4",
+      "synopsis": "Farhan Qureshi and Raju Rastogi want to re-unite with their fellow collegian, Rancho, after faking a stroke abroad an Air India plane, and excusing himself from his wife - trouser less - respectively. Enroute, they encounter another student, Chatur Ramalingam, now a successful businessman, who reminds them of a bet they had undertaken 10 years ago. The trio, while recollecting hilarious antics, including their run-ins with the Dean of Delhi's Imperial College of Engineering, Viru Sahastrabudhe, race to locate Rancho, at his last known address - little knowing the secret that was kept from them all this time."
+    },
+    {
+      "id": 8,
+      "moviename": "Bajirao Mastani",
+      "hero": "Ranveer Singh",
+      "heroine": "Deepika Padukone",
+      "director": "Sanjay Leela Bhansali",
+      "languages": [
+        "hindi"
+      ],
+      "genre": "historical",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODk4OWJlODMtMWYxMS00OWI1LTlkNDMtNGU5OTIyODdmOTc1XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+      "trailer": "https://www.youtube.com/embed/eHOc-4D7MjY",
+      "release": "2015",
+      "rating": "7.2",
+      "synopsis": "Bajirao Mastani is a historical romance film based on the love story between Maratha Peshwa Baji Rao I and his second wife Mastani. The film also focuses on the rivalry between Baji Rao and his family with his wife's father, the Muslim emperor of Delhi, who disapproves of their relationship. The film explores the themes of love, loyalty, and sacrifice against the backdrop of the war-torn 19th-century India."
+    },
+    {
+      "id": 9,
+      "moviename": "Dangal",
+      "hero": "Aamir Khan",
+      "heroine": "Fatima Sana Shaikh",
+      "director": "Nitesh Tiwari",
+      "languages": [
+        "Hindi"
+      ],
+      "genre": "sports",
+      "poster": "https://imageio.forbes.com/blogs-images/robcain/files/2017/05/Dangal-Hindi-poster.jpg?format=jpg&width=1200",
+      "trailer": "https://www.youtube.com/embed/x_7YlGv9u1g",
+      "release": "2016",
+      "rating": "8.4",
+      "synopsis": "Dangal is a sports drama film based on the true story of wrestler Mahavir Singh Phogat and his daughters, Geeta and Babita. The film explores themes of gender, family, and determination against the backdrop of the male-dominated world of wrestling in rural India."
+    },
+    {
+      "id": 10,
+      "moviename": "Padmaavat",
+      "hero": "Shahid Kapoor",
+      "heroine": "Deepika Padukone",
+      "director": "Sanjay Leela Bhansali",
+      "languages": [
+        "Hindi"
+      ],
+      "genre": "historical",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Padmaavat_poster.jpg/220px-Padmaavat_poster.jpg",
+      "trailer": "https://www.youtube.com/embed/X_5_BLt76c0",
+      "release": "2018",
+      "rating": "7.0",
+      "synopsis": "Padmaavat is a period drama based on the legend of Rani Padmavati, a Rajput queen known for her beauty, intellect and courage, who is pursued by the ruthless Sultan of Delhi, Alauddin Khilji. The film explores the themes of honor, sacrifice, and the power of love."
+    },
+    {
+      "id": 11,
+      "moviename": "Kabhi Khushi ",
+      "hero": "Shahrukh Khan",
+      "heroine": "Kajol",
+      "director": "Karan Johar",
+      "languages": [
+        "Hindi"
+      ],
+      "genre": "family drama",
+      "poster": "https://m.media-amazon.com/images/I/81ktGArASlL._AC_UF894,1000_QL80_.jpg",
+      "trailer": "https://www.youtube.com/embed/COaFtRwlfMM",
+      "release": "2001",
+      "rating": "7.4",
+      "synopsis": "Kabhi Khushi Kabhie Gham is a family drama that follows the life of a wealthy Indian family, the Raichands. The film explores themes of family, love, and relationships, and features an ensemble cast that includes some of Bollywood's biggest stars."
+    },
+    {
+      "id": "12",
+      "moviename": "Dia",
+      "hero": "Pruthvi Ambaar",
+      "heroine": "Dheekshitha Venkadeshan",
+      "director": "K S Ashoka",
+      "languages": [
+        "Kannada"
+      ],
+      "genre": "romance",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDQxYjRmNWYtNjgyMC00MDg2LTg2OTEtZmIzNWNkMDhkOTk1XkEyXkFqcGdeQXVyMzU0ODc1MTQ@._V1_.jpg    ",
+      "trailer": "https://www.youtube.com/embed/7NjXoMfiwzQ",
+      "release": "2020",
+      "rating": "8.2",
+      "synopsis": "Dia is a romantic drama film about a young woman named Dia who is haunted by her past and struggles to move on. The film explores themes of love, loss, and the power of self-discovery against the backdrop of the scenic beauty of Karnataka."
+    },
+    {
+      "id": 13,
+      "moviename": "Tagaru",
+      "hero": "Shiva Rajkumar",
+      "heroine": "Manvitha Harish",
+      "director": "Duniya Soori",
+      "languages": [
+        "Kannada"
+      ],
+      "genre": "action",
+      "poster": "https://www.filmibeat.com/ph-big/2018/02/tagaru-poster_151936572480.jpg",
+      "trailer": "https://www.youtube.com/embed/iNNG1HYjKkM",
+      "release": "2018",
+      "rating": "8.0",
+      "synopsis": "Tagaru is an action-crime drama film about a tough cop named Dolly who takes on a drug mafia in Bangalore. The film explores themes of corruption, loyalty, and betrayal against the backdrop of the gritty underbelly of the city."
+    },
+    {
+      "id": 14,
+      "moviename": "Pariyerum Perumal",
+      "hero": "Kathir",
+      "heroine": "Anandhi",
+      "director": "Mari Selvaraj",
+      "languages": [
+        "Tamil"
+      ],
+      "genre": "socail-issues",
+      "poster": "https://flxt.tmsimg.com/assets/p15996849_p_v8_aa.jpg",
+      "trailer": "https://www.youtube.com/embed/3qoWJaztAa0",
+      "release": "2018",
+      "rating": "8.5",
+      "synopsis": "Pariyerum Perumal is a Tamil drama film that follows the story of a young Dalit law student who faces discrimination from his upper-caste classmates and society. The film explores themes of casteism, discrimination, and friendship, and features a powerful performance by Kathir."
+    },
+    {
+      "id": 15,
+      "moviename": "KGF: Chapter 2",
+      "hero": "Yash",
+      "heroine": "Srinidhi Shetty",
+      "director": "Prashanth Neel",
+      "languages": [
+        "Kannada",
+        "Hindi",
+        "Tamil",
+        "Telugu"
+      ],
+      "genre": "action",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDNlNzBjMGUtYTA0Yy00OTI2LWJmZjMtODliYmUyYTI0OGFmXkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_SL1024_.jpg",
+      "trailer": "https://www.youtube.com/embed/_GFFZCioeVg",
+      "release": "2021",
+      "rating": "8.5",
+      "synopsis": "KGF: Chapter 2 is a multilingual Indian action-drama film that continues the story of the first film. The film follows Rocky as he navigates the dangerous world of politics and the mining mafia in Kolar Gold Fields. The film features a thrilling storyline, stunning visuals, and a powerful performance by Yash."
+    },
+    {
+      "id": 16,
+      "moviename": "Joji",
+      "hero": "Fahadh Faasil",
+      "heroine": "Unnimaya Prasad",
+      "director": "Dileesh Pothan",
+      "languages": [
+        "Malayalam"
+      ],
+      "genre": "thriller",
+      "poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/8d937eb4a9bc68d618bada2f087cab798d5d55d59386f2659a57f55de6fcd184._RI_V_TTW_.jpg",
+      "trailer": "https://www.youtube.com/embed/huM7vQCbDg4",
+      "release": "2021",
+      "rating": "8.3",
+      "synopsis": "Joji is a Malayalam drama-thriller film that follows the story of a wealthy family and their youngest son Joji, who yearns for the approval and love of his father. The film explores themes of greed, ambition, and family dynamics, and features a masterful performance by Fahadh Faasil."
+    },
+    {
+      "id": 17,
+      "moviename": "Master",
+      "hero": "Vijay",
+      "heroine": "Malavika Mohanan",
+      "director": "Lokesh Kanagaraj",
+      "languages": [
+        "Tamil",
+        "Telugu"
+      ],
+      "genre": "action",
+      "poster": "https://i0.wp.com/www.primesworld.com/wp-content/uploads/Master-Movie.jpg",
+      "trailer": "https://www.youtube.com/embed/yf8tC4y5J4Q",
+      "release": "2021",
+      "rating": "7.9",
+      "synopsis": "Master is a Tamil action-thriller film that follows the story of a college professor who takes on a gangster and his criminal empire. The film explores themes of corruption, education, and redemption, and features a charismatic performance by Vijay."
+    },
+    {
+      "id": 18,
+      "moviename": "Jersey",
+      "hero": "Nani",
+      "heroine": "Shraddha Srinath",
+      "director": "Gowtam Tinnanuri",
+      "languages": [
+        "Telugu"
+      ],
+      "genre": "sports",
+      "poster": "https://moviegalleri.net/wp-content/gallery/jersey-movie-posters-hd/jersey-movie-posters-hd-nani-shraddha-srinath-1195ba9.jpg",
+      "trailer": "https://www.youtube.com/embed/tK-XRmug-5A",
+      "release": "2019",
+      "rating": "8.4",
+      "synopsis": "Jersey is a Telugu sports drama film that follows the story of a failed cricketer who tries to make a comeback into the sport in order to fulfill his son's dreams. The film explores themes of perseverance, fatherhood, and the power of dreams, and features a heartfelt performance by Nani."
+    },
+    {
+      "id": 20,
+      "moviename": "Zindagi  Dobara",
+      "hero": "Hrithik Roshan",
+      "heroine": "Katrina Kaif",
+      "director": "Zoya Akhtar",
+      "languages": [
+        "Hindi"
+      ],
+      "genre": "comedy",
+      "poster": "https://bestoftheyear.in/wp-content/uploads/2016/03/zindagi-na-milegi-dobara.jpg",
+      "trailer": "https://www.youtube.com/embed/FJrpcDgC3zU",
+      "release": "2011",
+      "rating": "8.1",
+      "synopsis": "Zindagi Na Milegi Dobara is a Bollywood comedy-drama film that follows the story of three friends who go on a bachelor road trip to Spain. The film explores themes of friendship, love, and self-discovery, and features breathtaking visuals and a talented cast."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+    "Products" :[
+        {
+            "id":"1",
+            "Brand":"Puma",
+            "product":"shoes",
+            "image":"https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/p/a/e/-original-imagf5pppqumyhq7-bb.jpeg?q=70",
+            "mrp":"1999",
+            "dis-price":"999",
+            "rating":"4.5",
+            "size":[" 4 UK","5 UK","6 UK","7 UK","8 UK"],
+            "color":["white","black","blue"]
+            
+        },
+        {
+            "id":"2",
+            "Brand":"Nike",
+            "product":"shoes",
+            "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/i/a/t/12-dm0823-005-13-nike-black-white-anthracite-blue-lightning-original-imagnxamghfwsrtz.jpeg?q=70",
+            "mrp":"2999",
+            "dis-price":"1999",
+            "rating":"4.6",
+            "size":[" 4 UK","5 UK","6 UK","7 UK","8 UK"],
+            "color":["white","black","blue"]
+        },
+        {
+            "id":"3",
+            "Brand":"puma",
+            "product":"t-shirts",
+            "image":"https://rukminim1.flixcart.com/image/612/612/kr2e3680/t-shirt/j/x/j/xs-84776201-puma-original-imag4xhnyjgwhj4g.jpeg?q=70",
+            "mrp":"299",
+            "dis-price":"199",
+            "rating":"4.2",
+            "size":["M","L","XL"],
+            "color":["white","black","blue","red"]
+        },
+        {
+            "id":"4",
+            "Brand":"Nike",
+            "product":"t-shirts",
+            "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/p/o/d/m-ar4992-013-nike-original-imaggf5bzgeggfxt.jpeg?q=70",
+            "mrp":"499",
+            "dis-price":"299",
+            "rating":"4.7",
+            "size":["L","XL","XXL","XXXL"],
+            "color":["white","black","blue","yello"]
+        },
+        {
+            "id":"5",
+            "Brand":"PeterEngland",
+            "product":"shirts",
+            "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/u/o/y/m-bhmls22023-being-human-original-imagktyvzvrvfdmz.jpeg?q=70",
+            "mrp":"899",
+            "dis-price":"699",
+            "rating":"4.9",
+            "size":["L","XL","XXL"],
+            "color":["white","black","blue","yello","oreng"]
+        },
+
+        {
+            "id":"6",
+            "Brand":"PeterEngland",
+            "product":"t-shirts",
+            "image":"https://rukminim1.flixcart.com/image/612/612/l41n2q80/t-shirt/q/w/r/m-pckcaatby71554-peter-england-original-imagffyftghubujz.jpeg?q=70",
+            "mrp":"599",
+            "dis-price":"499",
+            "rating":"4.9",
+            "size":["S","M","L","XL","XXL"],
+            "color":["white","black","blue","oreng"]
+        }
+
+
+    ]
+}
