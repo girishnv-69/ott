@@ -15,7 +15,7 @@ const Moviedetails = () => {
         setmovie(null)
         setpending(true)
         setTimeout(()=>{
-            fetch("http://localhost:4000/movies/"+id)
+            fetch("http://localhost:8000/movies/"+id)
             .then((res)=>{return res.json()})
             .then((data)=>{
                 console.log(data);
