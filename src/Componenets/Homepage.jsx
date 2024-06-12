@@ -32,7 +32,7 @@ const Homepage = () =>
     } , [])
         return (
                 <div className="home">
-                    {/* {movies == null && <h1>Loding........</h1>} */}
+                    {movies == null && <h1>Loding........</h1>}
 
                     <Movieslist movies={ movies}  title ="All movies" />
 
